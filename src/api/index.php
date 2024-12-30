@@ -9,14 +9,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 }
 
 // Configuration
-define('ADMIN_TOKEN', 'exercise_admin_token_123');
-define('ADMIN_EMAIL', 'rainer.knabenbauer@posteo.de');
+define('ADMIN_TOKEN', '---');
+define('ADMIN_EMAIL', '---');
 
 $db_config = [
     'host' => 'localhost',
-    'dbname' => 'd04256cf',
-    'user' => 'd04256cf',
-    'password' => 'PZNtqSCofaVfXey4EwQk'
+    'dbname' => '---',
+    'user' => '---',
+    'password' => '---'
 ];
 
 try {
